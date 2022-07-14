@@ -7,4 +7,4 @@
 ##### Application Scope:
 
 - S25: Replacing Redux with React Custom Hooks
-- Topics discussed: Context API vs Custom Hooks (store), Creating store custom hook
+- Topics discussed: Context API vs Custom Hooks (store), Creating and using store custom hook
