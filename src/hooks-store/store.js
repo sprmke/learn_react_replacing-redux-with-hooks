@@ -32,5 +32,5 @@ export const initStore = (userActions, initialState) => {
     globalState = { ...globalState, ...initialState };
   }
 
-  actions = { ...actions, userActions };
+  actions = { ...actions, ...userActions };
 };
