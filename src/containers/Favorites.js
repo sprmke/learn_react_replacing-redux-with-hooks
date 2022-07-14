@@ -4,7 +4,7 @@ import FavoriteItem from '../components/Favorites/FavoriteItem';
 import './Products.css';
 
 const Favorites = (props) => {
-  const [state, dispatch] = useStore();
+  const state = useStore()[0];
   const favoriteProducts = state.products.filter((p) => p.isFavorite);
 
   let content = <p className='placeholder'>Got no favorites yet!</p>;
